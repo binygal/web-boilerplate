@@ -1,0 +1,24 @@
+{
+  "name": "y",
+  "version": "0.0.1",
+  "description": "Boilerplate for web products that usually have the same structure",
+  "main": "index.html",
+  "scripts": {
+    "bootstrap": "lerna bootstrap",
+    "start-client": "(cd packages/client && npm start)",
+    "test": "lerna run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/binygal/web-boilerplate.git"
+  },
+  "author": "Binyamin Galinsky",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/binygal/web-boilerplate/issues"
+  },
+  "homepage": "https://github.com/binygal/web-boilerplate#readme",
+  "dependencies": {
+    "lerna": "^3.18.3"
+  }
+}

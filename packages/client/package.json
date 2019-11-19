@@ -1,0 +1,17 @@
+{
+  "name": "main-client",
+  "version": "0.0.1",
+  "description": "Main client app",
+  "main": "index.html",
+  "scripts": {
+    "start": "parcel index.html --open",
+    "build": "parcel build",
+    "test": "jest ."
+  },
+  "author": "Binyamin Galinsky",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^24.9.0",
+    "typescript": "^3.6.4"
+  }
+}
